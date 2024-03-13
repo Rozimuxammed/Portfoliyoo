@@ -1,0 +1,147 @@
+.about {
+    width: 100%;
+    min-height: 100vh;
+    background-color: grey;
+}
+
+.about .container {
+    padding: 80px 10px;
+}
+
+.about .container h1,
+.about .container h2 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.about .container .skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .container .skills ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.about .container .skills ul li {
+    position: relative;
+    list-style: none;
+    font-family: sans-serif;
+    width: 900px;
+    color: #fff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.about .container .skills ul li .html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.about .container .skills ul li .css {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.about .container .skills ul li .javascript {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.about .container .skills ul li .react {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.about .container .skills ul li .sass {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.about .container .skills ul li .bootstrap {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.about .container .skills ul li .tailwind {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.about .container .skills ul li .firebase {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.about .container .resume {
+    text-align: center;
+}
+
+.about .container .resume a button {
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all .3s ease;
+}
+
+.about .container .resume a button:hover {
+    background-color: black;
+    color: #fff;
+}
